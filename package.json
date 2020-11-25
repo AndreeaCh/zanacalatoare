@@ -6,7 +6,8 @@
         "node": "14.15.1"
     },
     "scripts": {
-        "start": "gulp watch"
+        "start": "node app",
+        "postinstall": "gulp watch"
     },
     "description": "A grayscale one page HTML theme for Bootstrap.",
     "keywords": [
